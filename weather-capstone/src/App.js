@@ -1,13 +1,12 @@
-import Navbar from './components/Navbar'
-import AboutUs from './components/AboutUs'
-
+import Navbar from './components/Navbar/Navbar'
+import {BrowserRouter as Router} from 'react-router-dom'
+import AboutUs from './components/pages/AboutUs'
 function App() {
   return (
-    <div className="App">
-      <h1>Arizona Weather</h1>
-
-      <AboutUs component={AboutUs} />
-    </div>
+    <Router>
+      <Navbar />
+      <AboutUs />
+    </Router>
   );
 }
 
