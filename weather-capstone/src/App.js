@@ -1,8 +1,10 @@
+import Navbar from './components/Navbar/Navbar'
+import {BrowserRouter as Router} from 'react-router-dom'
 function App() {
   return (
-    <div className="App">
-      <h1>Arizona Weather</h1>
-    </div>
+    <Router>
+      <Navbar />
+    </Router>
   );
 }
 
