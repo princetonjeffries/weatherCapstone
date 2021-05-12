@@ -1,11 +1,16 @@
 import React from 'react'
 import {Nav, NavLink, Bars, NavMenu} from './NavbarElements'
+import styled from 'styled-components'
+import {WeatherSunnyLow} from '@styled-icons/fluentui-system-filled/WeatherSunnyLow'
+
+//import logo from '../../images/logo.png'
+
 const Navbar = () => {
     return (
         <>
             <Nav>
                 <NavLink to='/'>
-                    <h1>Arizona Weather</h1>
+                   <WeatherSunnyLow size='48' />Arizona Weather
                 </NavLink>
                 <Bars />
                 <NavMenu>
