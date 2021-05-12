@@ -22,12 +22,23 @@ body{
   text-shadow: .1rem 0rem 2rem white;
 }
 
-.container {
-  color: white;
-  background-color: blue;
+
+/* Carousel */
+.alice-carousel {
+  padding-top: 3rem;
 }
 
-.carousel-item {
+
+
+.carousel {
   color: white;
   text-align: center;
+}
+
+.sliderimg {
+  object-fit: cover; /* object-fit specifies how an image should fit its container */
+}
+
+.alice-carousel__prev-btn {
+  color: red;
 }
