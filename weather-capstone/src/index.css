@@ -17,3 +17,8 @@ code {
   font-size: 3rem;
   text-shadow: .1rem 0rem 2rem white;
 }
+
+.container {
+  color: black;
+  background-color: blue;
+}
