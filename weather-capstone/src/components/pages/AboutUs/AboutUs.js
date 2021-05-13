@@ -1,10 +1,10 @@
-import Carousel from "./Carousel";
+import SlideShow from "./SlideShow";
 
 const AboutUs = () => {
     return (
         <div className="container">
 
-            <Carousel />
+            <SlideShow />
 
         </div>
     )

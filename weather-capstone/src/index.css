@@ -24,22 +24,13 @@ body{
 }
 
 
-/* Carousel */
-.alice-carousel {
-  padding-top: 3rem;
+/* AboutUs Cards */
+.card {
+  top: 4rem;
+  height: 25rem;
 }
 
-
-
-.carousel {
-  color: white;
-  text-align: center;
-}
-
-.sliderimg {
-  object-fit: cover; /* object-fit specifies how an image should fit its container */
-}
-
-.alice-carousel__prev-btn {
-  color: red;
+.text {
+  color: black;
+  font-size: 3rem;
 }

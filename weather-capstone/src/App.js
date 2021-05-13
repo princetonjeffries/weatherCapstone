@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar/Navbar'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import AboutUs from './components/pages/AboutUs'
+import AboutUs from './components/pages/AboutUs/AboutUs'
 import index from './components/pages/index'
 import Weather from './components/pages/Weather'
 
