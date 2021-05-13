@@ -1,14 +1,17 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Jumbotron from 'react-bootstrap/Jumbotron'
 import image1 from './img/image1.jpg'
 import image2 from './img/image2.jpg'
 import image3 from './img/image3.jpg'
 import image4 from './img/image4.jpg'
+import image5 from './img/image5.jpg'
 
 const Cards = () => {
   return (
   <>
+  <Jumbotron fluid>
   <CardDeck>
   <Card>
     <Card.Body>
@@ -16,6 +19,7 @@ const Cards = () => {
       <Card.Text>
         Provide consistent weather and forecast updates for Arizonans to keep them safe and informed.
       </Card.Text>
+      <Card.Img variant="top" src={image1} className="custom-image" />
       <Card.Body>
       <Card.Img variant="top" src={image4} className="custom-image"/>
       </Card.Body>
@@ -27,8 +31,10 @@ const Cards = () => {
       <Card.Text>
         Every Arizonan is informed and prepared to deal with weather endangerments.
       </Card.Text>
+      <Card.Img variant="top" src={image5} className="custom-image"/>
+      <Card.Body>
       <Card.Img variant="top" src={image2} className="custom-image"/>
-      <Card.Img variant="top" src={image1} className="custom-image" />
+      </Card.Body>
     </Card.Body>
   </Card>
   <Card>
@@ -47,6 +53,7 @@ const Cards = () => {
     </Card.Body>
   </Card>
 </CardDeck>
+</Jumbotron>
   </>
 
   )
