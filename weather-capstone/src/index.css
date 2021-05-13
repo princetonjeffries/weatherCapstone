@@ -2,19 +2,29 @@
   font-family: 'montserrat';
   src: url(./fonts/Montserrat/Montserrat-Black.ttf)
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 *{
-  font-family: 'montserrat';
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+#restOfFooter{
+  display:flex;
+  justify-content: space-around;
+  padding-top:50px;
+}
+li{
+  list-style: none;
+}
 body{
+  font-family: 'Open Sans Condensed', sans-serif;
   background-image: url(./images/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
+  min-height:100%;
 }
 
 .header {
@@ -29,8 +39,46 @@ body{
   top: 4rem;
   height: 25rem;
 }
+#socials{
+  display:flex;
+  justify-content: space-around;
+  width:50%;
+}
+#footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(45, 45, 45);
+  color:white;
+}
+.jumbotron{
+  background: rgba(0, 0, 0, 0.415);
 
+<<<<<<< HEAD
 .text {
   color: black;
   font-size: 3rem;
+=======
+  color:white;
+}
+a:hover{
+  text-decoration:none;
+  color: #2DA9F5;
+}
+
+.carousel {
+  color: white;
+  text-align: center;
+}
+
+.sliderimg {
+  object-fit: cover; /* object-fit specifies how an image should fit its container */
+}
+
+.alice-carousel__prev-btn {
+  color: red;
+}
+html{
+  height:100vh;
+>>>>>>> 06e7067a0a6fa401a0d9667ef7ff5cd5b72a09b7
 }
