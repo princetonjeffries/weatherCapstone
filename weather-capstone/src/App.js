@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import AboutUs from './components/pages/AboutUs'
 import index from './components/pages/index'
 import Weather from './components/pages/Weather'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={index}/>
-        <Route path='/weather' exact component={Weather}/>
-        <Route path='/about' exact component={AboutUs}/>
+        <Route path='/weather'  component={Weather}/>
+        <Route path='/about'  component={AboutUs}/>
       </Switch>
+      <Footer />
     </Router>
   );
 }
