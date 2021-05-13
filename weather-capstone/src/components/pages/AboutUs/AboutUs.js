@@ -1,10 +1,10 @@
-import SlideShow from "./SlideShow";
+import Cards from "./Cards";
 
 const AboutUs = () => {
     return (
         <div className="container">
 
-            <SlideShow />
+            <Cards />
 
         </div>
     )
