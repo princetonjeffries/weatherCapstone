@@ -49,7 +49,9 @@ body{
   background-color:rgb(12, 14, 32);
   color:white;
   height:45vh;
+  border-radius: 0;
 }
+
 #jumbotron{
   background: rgba(0, 0, 0, 0.415);
   color:white;
@@ -64,6 +66,31 @@ a:hover{
 
 html{
   height:100vh;
+}
+
+#links a:hover{
+  color:#2DA9F5;
+  text-decoration: none;
+}
+#links a{
+  color:white;
+}
+#nav a:hover{
+  color:#2DA9F5;
+  text-decoration: none;
+}
+#links1{
+  display:flex;
+  transform:1.2s;
+
+}
+#links1 img:hover{
+  transform: scale(1.5);
+}
+#links1 li{
+  padding:5px;
+  margin-bottom:0;
+  border-radius: 0;
 }
 
 /* AboutUs Cards */
@@ -90,30 +117,7 @@ html{
   color: black;
   font-size: 3rem;
   border-radius: 0;
-}
-#links a:hover{
-  color:#2DA9F5;
-  text-decoration: none;
-}
-#links a{
-  color:white;
-}
-#nav a:hover{
-  color:#2DA9F5;
-  text-decoration: none;
-}
-#links1{
-  display:flex;
-  transform:1.2s;
-
-}
-#links1 img:hover{
-  transform: scale(1.5);
-}
-#links1 li{
-  padding:5px;
-  margin-bottom:0;
-  border-radius: 0;
+  margin-bottom: 0;
 }
 
 .header {
