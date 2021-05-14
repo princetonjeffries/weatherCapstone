@@ -1,5 +1,5 @@
 import React from 'react'
-import {Nav, NavLink, Bars, NavMenu} from './NavbarElements'
+import {Nav, NavLink, NavMenu} from './NavbarElements'
 import {WeatherSunnyLow} from '@styled-icons/fluentui-system-filled/WeatherSunnyLow'
 
 const Navbar = () => {
