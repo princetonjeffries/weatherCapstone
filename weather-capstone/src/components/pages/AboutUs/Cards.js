@@ -11,12 +11,12 @@ import image5 from './img/image5.jpg'
 const Cards = () => {
   return (
   <>
-  <Jumbotron fluid>
+  <Jumbotron id="jumbotron-2">
   <CardDeck>
   <Card>
     <Card.Body>
-      <Card.Title>Our Mission</Card.Title>
-      <Card.Text>
+      <Card.Title id="title">Our Mission</Card.Title>
+      <Card.Text id="text">
         Provide consistent weather and forecast updates for Arizonans to keep them safe and informed.
       </Card.Text>
       <Card.Img variant="top" src={image1} className="custom-image" />
@@ -27,8 +27,8 @@ const Cards = () => {
   </Card>
   <Card>
     <Card.Body>
-      <Card.Title>Our Vision</Card.Title>
-      <Card.Text>
+      <Card.Title id="title">Our Vision</Card.Title>
+      <Card.Text id="text">
         Every Arizonan is informed and prepared to deal with weather endangerments.
       </Card.Text>
       <Card.Img variant="top" src={image5} className="custom-image"/>
@@ -39,14 +39,14 @@ const Cards = () => {
   </Card>
   <Card>
     <Card.Body>
-      <Card.Title>Our Goals</Card.Title>
-      <Card.Text>
+      <Card.Title id="title">Our Goals</Card.Title>
+      <Card.Text id="text">
         -Teach more Arizonans about possible weather endangerments
       </Card.Text>
-      <Card.Text>
+      <Card.Text id="text">
       -Inform Arizonans about the current weather as soon as possible
       </Card.Text>
-      <Card.Text>
+      <Card.Text id="text">
       -Put safety precautions in place to prepare for a safer future
       </Card.Text>
       <Card.Img variant="top" src={image3} className="custom-image"/>
@@ -54,7 +54,7 @@ const Cards = () => {
   </Card>
 </CardDeck>
 </Jumbotron>
-  </>
+</>
 
   )
 }
