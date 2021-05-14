@@ -67,18 +67,26 @@ html{
 
 /* AboutUs Cards */
 .card {
-  top: 4rem;
-  height: 31rem;
+  height: 33rem;
 }
 
 .custom-image {
   border: solid wheat .3rem;
 }
 
-.text {
+#title {
+  color: #2DA9F5;
+  font-size: 2rem;
+}
+
+#text {
+  font-size: 1.25rem;
+}
+
+#jumbotron-2{
+  background: rgba(0, 0, 0, 0.415);
   color: black;
   font-size: 3rem;
-  color:white;
 }
 #links a:hover{
   color:#2DA9F5;
@@ -96,4 +104,6 @@ html{
 }
 #links1 li{
   padding:5px;
+  margin-bottom:0;
+  border-radius: 0;
 }
