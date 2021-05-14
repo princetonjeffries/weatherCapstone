@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import {WeatherSunnyLow} from '@styled-icons/fluentui-system-filled/WeatherSunnyLow'
 import image1 from './img/image1.jpg'
 import image2 from './img/image2.jpg'
 import image3 from './img/image3.jpg'
@@ -12,6 +13,9 @@ const Cards = () => {
   return (
   <>
   <Jumbotron id="jumbotron-2">
+    <div className="header">
+  <WeatherSunnyLow size='90'/> <h1 id="heading">Arizona Weather</h1>
+  </div>
   <CardDeck>
   <Card>
     <Card.Body>

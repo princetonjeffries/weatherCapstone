@@ -77,6 +77,7 @@ html{
 #title {
   color: #2DA9F5;
   font-size: 2rem;
+  text-decoration: underline;
 }
 
 #text {
@@ -88,4 +89,16 @@ html{
   color: black;
   margin-bottom:0;
   border-radius: 0;
+}
+
+.header {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+#heading {
+  font-size: 4rem;
+  text-shadow: none;
 }
