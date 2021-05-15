@@ -94,25 +94,25 @@ html{
 }
 
 /* AboutUs Cards */
-.card {
+.card { /* Styles the cards */
   height: 33rem;
 }
 
-.custom-image {
+.custom-image { /* Styles the card images */
   border: solid wheat .3rem;
 }
 
-#title {
+#title { /* Styles the card titles */
   color: #2DA9F5;
   font-size: 2rem;
   text-decoration: underline;
 }
 
-#text {
+#text { /* Styles the text inside the cards */
   font-size: 1.25rem;
 }
 
-#jumbotron-2{
+#jumbotron-2{ /* Styles the Jumbotron(background) */
   background: rgba(0, 0, 0, 0.415);
   color: black;
   font-size: 3rem;
@@ -120,14 +120,15 @@ html{
   margin-bottom: 0;
 }
 
-.header {
+.header { /* Styles the icon and heading */
   color: orange;
   display: flex;
   justify-content: center;
   text-decoration: underline;
+  padding-bottom: 1rem;
 }
 
-#heading {
+#heading { /* Styles the heading */
   font-size: 4rem;
   text-shadow: none;
 }

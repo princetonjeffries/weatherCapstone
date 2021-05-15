@@ -1,10 +1,10 @@
-import Cards from "./Cards";
+import Cards from "./Cards"; /* Imports Cards from Cards.js */
 
-const AboutUs = () => {
+const AboutUs = () => { /* AboutUs page function */
     return (
-        <div className="container">
+        <div className="container"> {/* Parent container needed to hold the components */}
 
-            <Cards />
+            <Cards /> {/* Displaying the Cards on the page */}
 
         </div>
     )
