@@ -1,0 +1,114 @@
+@font-face{
+  font-family: 'montserrat';
+  src: url(./fonts/Montserrat/Montserrat-Black.ttf)
+}
+*{
+  font-family: 'montserrat';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.header {
+  color: white;
+  font-size: 3rem;
+  text-shadow: .1rem 0rem 2rem white;
+}
+
+
+/* Carousel */
+.alice-carousel {
+  padding-top: 3rem;
+}
+
+
+
+.carousel {
+  color: white;
+  text-align: center;
+}
+
+.sliderimg {
+  object-fit: cover; /* object-fit specifies how an image should fit its container */
+}
+
+.alice-carousel__prev-btn {
+  color: red;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.Ttemp{
+  text-align: start;
+  padding-left: 30px;
+  font-size: 6.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#WP{
+  padding-left: 40px;
+  padding-top: 60px;
+}
+
+#wpText{
+  text-align: start;
+  font-size: 20px;
+}
+
+.sunsize{
+  width: 9rem;
+  height: 8rem;
+}
+
+.Trrowtemp{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 5rem;
+  padding-top: 40px;
+}
+
+#Ttext{
+  margin: 0;
+  font-size: 50px;
+}
+
+#TtempText{
+  padding-top: 3rem;
+  font-size: 100px;
+}
+
+.Listtemp{
+  text-align: start;
+  background-color: rgb(0, 0, 0, .8);
+}
+
+.Dtemp{
+  display: flex;
+  align-items: baseline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90rem;
+  justify-content: space-between;
+  color: #a36106;
+  padding-top: 2rem;
+}
+
+
+/* this is use for the datse list sun size */
+#sunsize{
+  width: 2rem;
+  height: 2rem;
+}
