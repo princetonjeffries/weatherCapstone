@@ -1,62 +1,74 @@
 import React from 'react'
 import styled from 'styled-components'
 import {SunFill} from '@styled-icons/bootstrap/SunFill'
-/* import {Container} from 'react-bootsrap/Container'; */
+import {PartlySunny} from '@styled-icons/ionicons-sharp/PartlySunny'
+import Container from 'react-bootstrap/Container'
+
+
 
 const YSun = styled(SunFill)`
     color: yellow;
-    width: 3rem;
+    width: 5rem;
     `
 const XSun =styled(SunFill)`
     color: yellow;
-    width: 13rem;`
+    width: 10rem;`
+
+const CSun = styled(PartlySunny)`
+    color: yellow;
+    width: 5rem;
+    background-color: white;
+    `
 
 var dt = new Date();
 var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
 
+/* import {Container} from 'react-bootsrap/Container'; */
+
+
 const Weather = () => {
     return (
-        <div>
+        <Container fluid>
             <div className="container">
                 <div className="Ttemp">
-                    <h2><XSun />99°F</h2>
-                    <div className="timeCheck" id="time">{time}</div>
+                    <p id="TempText"><XSun />88°F</p>
+                    <div id="time">{time}</div>
                 </div>
                 <div id="WP">
                     <p id="wpText">Precipitation: 0%</p>
-                    <p id="wpText">Wind: 12mph</p>
-                    <p id="wpText">Humidity: 6%</p>
+                    <p id="wpText">Wind: 9mph</p>
+                    <p id="wpText">Humidity: 14%</p>
                 </div>
                 <div className="Trrowtemp">
                     <p id="Ttext">Tomorrow Temp.</p>
-                    <p id="TtempText">100°F</p>
+                    <p id="TtempText">82°F</p>
                 </div>
 
             </div>
                 <div className="Listtemp" fluid>
                     <div className="Dtemp">
-                        <YSun /><p>Saturday</p><p>96°|64°</p><p>Precipitation: 0%</p><p>Wind Speed: 9 mph</p><p>Humdity: 5%</p>
+                        <img src="./images/Sun.png" id="CSun"></img><p id="popUpDays">Tuesday</p><p>94°|69°</p><p>Precipitation: 0%</p><p>Wind Speed: 6 mph/NE</p><p>Humdity: 5%</p>
                     </div>
                     <div className="Dtemp">
-                        <YSun /><p>Sunday</p><p>88°|62°</p><p>Precipitation: 0%</p><p>Wind Speed: 11 mph</p><p>Humdity: 4%</p>
+                        <YSun className="display" /><p id="popUpDays">Wednsday</p><p>99°|68°</p><p>Precipitation: 0%</p><p>Wind Speed: 6 mph/NE</p><p>Humdity: 4%</p>
                     </div>
                     <div className="Dtemp">
-                        <YSun /><p>Monday</p><p>89°|65°</p><p>Precipitation: 0%</p><p>Wind Speed: 4 mph</p><p>Humdity: 6%</p>
+                    <img src="./images/Sun.png" id="CSun"></img><p id="popUpDays">Thursday</p><p>96°|67°</p><p>Precipitation: 0%</p><p>Wind Speed: 4 mph/NE</p><p>Humdity: 6%</p>
                     </div>
                     <div className="Dtemp">
-                        <YSun /><p>Tuesday</p><p>95°|68°</p><p>Precipitation: 0%</p><p>Wind Speed: 4 mph</p><p>Humdity: 4%</p>
+                    <img src="./images/Sun.png" id="CSun"></img><p id="popUpDays">Friday</p><p>87°|59°</p><p>Precipitation: 0%</p><p>Wind Speed: 3 mph/NEE</p><p>Humdity: 4%</p>
                     </div>
                     <div className="Dtemp">
-                        <YSun /><p>Wednsday</p><p>96°|69°</p><p>Precipitation: 0%</p><p>Wind Speed: 3 mph</p><p>Humdity: 5%</p>
+                        <YSun  className="display" /><p id="popUpDays">Saturday</p><p>88°|59°</p><p>Precipitation: 0%</p><p>Wind Speed: 5 mph/NNE</p><p>Humdity: 5%</p>
                     </div>
                     <div className="Dtemp">
-                        <YSun /><p>Thursday</p><p>91°|61°</p><p>Precipitation: 0%</p><p>Wind Speed: 8 mph</p><p>Humdity: 4%</p>
+                        <YSun className="display" /><p id="popUpDays">Sunday</p><p>92°|62°</p><p>Precipitation: 3%</p><p>Wind Speed: 8 mph/NE</p><p>Humdity: 4%</p>
                     </div>
                     <div className="Dtemp">
-                        <YSun /><p>Friday</p><p>85°|61°</p><p>Precipitation: 0%</p><p>Wind Speed: 9 mph</p><p>Humdity: 6%</p>
+                        <YSun className="display" /><p id="popUpDays">Monday</p><p>97°|65°</p><p>Precipitation: 1%</p><p>Wind Speed: 12 mph/NE</p><p>Humdity: 6%</p>
                     </div>
                 </div>
-        </div>
+        </Container>
     )
 }
 

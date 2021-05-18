@@ -1,6 +1,5 @@
 import React from 'react'
-import {Nav, NavLink, Bars, NavMenu} from './NavbarElements'
-import styled from 'styled-components'
+import {Nav, NavLink, NavMenu} from './NavbarElements'
 import {WeatherSunnyLow} from '@styled-icons/fluentui-system-filled/WeatherSunnyLow'
 /* import Logo from '.WeatherStolen.png/images/public' */
 //import logo from '../../images/logo.png'
@@ -8,16 +7,15 @@ import {WeatherSunnyLow} from '@styled-icons/fluentui-system-filled/WeatherSunny
 const Navbar = () => {
     return (
         <>
-            <Nav>
+            <Nav id='nav'>
                 <NavLink to='/'>
-                   <WeatherSunnyLow size="48" />Arizona Weather
+                    <WeatherSunnyLow size='48'/> <h1>Arizona Weather</h1> 
                 </NavLink>
-                <Bars />
                 <NavMenu>
-                    <NavLink to='/weather' activeStyle>
+                    <NavLink to='/weather'>
                         Weather
                     </NavLink>
-                    <NavLink to='/about' activeStyle>
+                    <NavLink to='/about'>
                         About Us
                     </NavLink>
                 </NavMenu>

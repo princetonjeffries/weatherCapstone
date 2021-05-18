@@ -1,10 +1,10 @@
-import Carousel from "./Carousel";
+import Cards from "./Cards";
 
 const AboutUs = () => {
     return (
         <div className="container">
 
-            <Carousel />
+            <Cards />
 
         </div>
     )
