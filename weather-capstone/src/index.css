@@ -98,6 +98,10 @@ html{
   height: 33rem;
 }
 
+.custom-card {
+  border: solid wheat .2rem !important;
+}
+
 .custom-image { /* Styles the card images */
   border: solid wheat .3rem;
 }
@@ -131,4 +135,36 @@ html{
 #heading { /* Styles the heading */
   font-size: 4rem;
   text-shadow: none;
+}
+
+#methods-image {
+  margin-bottom: 1.5rem;
+}
+
+.carousel-control-next-icon {
+  display: none !important;
+}
+
+.carousel-control-prev-icon {
+  display: none !important;
+}
+
+.carousel-control-prev {
+  cursor: auto !important;
+}
+
+.carousel-control-next {
+  cursor: auto !important;
+}
+
+.scroll {
+  background-color: white;
+  width: fit-content;
+  overflow-y: scroll;
+  font-size: 2rem;
+}
+
+#title-2 {
+  font-size: 3rem;
+  text-align: center;
 }
