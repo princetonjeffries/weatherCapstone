@@ -4,7 +4,6 @@ import AboutUs from './components/pages/AboutUs/AboutUs'
 import index from './components/pages/index'
 import Weather from './components/pages/Weather'
 import Footer from './components/Footer'
-
 function App() {
   return (
     <Router>
