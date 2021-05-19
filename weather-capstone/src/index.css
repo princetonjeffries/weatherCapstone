@@ -142,19 +142,31 @@ html{
 }
 
 .carousel-control-next-icon {
-  display: none !important;
+  position: static !important;
+  display: block !important;
+  margin-left: auto !important;
+  cursor: pointer !important;
 }
 
 .carousel-control-prev-icon {
-  display: none !important;
+  position: static !important;
+  display: block !important;
+  margin-right: auto !important;
+  cursor: pointer !important;
 }
 
 .carousel-control-prev {
   cursor: auto !important;
+  height: 1rem !important;
+  display: block !important;
+  margin: auto !important;
 }
 
 .carousel-control-next {
   cursor: auto !important;
+  height: 1rem !important;
+  display: block !important;
+  margin: auto !important;
 }
 
 .scroll { /* Styles the scroll container for the company history */
@@ -172,4 +184,9 @@ html{
 
 #end { /* Centers the end text at the end of the story */
   text-align: center;
+}
+
+.story-text {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
