@@ -2,6 +2,10 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import {WeatherSunnyLow} from '@styled-icons/fluentui-system-filled/WeatherSunnyLow'
+import instagram from '../images/instagram.png';
+import twitter from '../images/twitter.png';
+import youtube from '../images/youtube.png';
+
 const Footer = () => {
     return (
         <div>
@@ -15,9 +19,9 @@ const Footer = () => {
                 style={{color:'#a36106'}}
              />
                 <ul id='links1'>
-                    <li><a href='https://twitter.com/' target='_blank' ><img src='https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png' height='64' width='64'></img> </a></li>
-                    <li><a href='https://instagram.com' target='_blank'><img src='http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png' height='64' width='64'></img></a></li>
-                    <li><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img src='https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png' height='64' width='64'></img></a></li>
+                    <li><a href='https://twitter.com/' target='_blank' ><img src={instagram} height='64' width='64'></img> </a></li>
+                    <li><a href='https://instagram.com' target='_blank'><img src={twitter} height='64' width='64'></img></a></li>
+                    <li><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img src={youtube} height='64' width='64'></img></a></li>
                 </ul>
                 <ul id='links'>
                     <li><a href='#'>Contact Us</a></li>
