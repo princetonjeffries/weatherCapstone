@@ -157,14 +157,19 @@ html{
   cursor: auto !important;
 }
 
-.scroll {
+.scroll { /* Styles the scroll container for the company history */
   background-color: white;
   width: fit-content;
   overflow-y: scroll;
   font-size: 2rem;
+  scroll-behavior: smooth;
+  height: 33rem;
 }
 
-#title-2 {
-  font-size: 3rem;
+#title-3 { /* Styles the parts of the history */
+  text-align: center;
+}
+
+#end { /* Centers the end text at the end of the story */
   text-align: center;
 }
