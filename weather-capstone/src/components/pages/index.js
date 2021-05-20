@@ -10,7 +10,7 @@ const index = () => {
         <div>
             <Jumbotron id='jumbotron'fluid className='text-center'>
                 <Container>
-                    <h1>Hello today is, {format (new Date(), "'Today is ' eeee, LLLL do")}</h1>
+                    <h1>Hello, {format (new Date(), "'Today is ' eeee, LLLL do")}</h1>
                     <OpenWeather/>
                 </Container>
             </Jumbotron>

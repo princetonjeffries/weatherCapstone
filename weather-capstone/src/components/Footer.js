@@ -19,8 +19,8 @@ const Footer = () => {
                 style={{color:'#a36106'}}
              />
                 <ul id='links1'>
-                    <li><a href='https://twitter.com/' target='_blank' ><img src={instagram} height='64' width='64'></img> </a></li>
-                    <li><a href='https://instagram.com' target='_blank'><img src={twitter} height='64' width='64'></img></a></li>
+                    <li><a href='https://twitter.com/' target='_blank' ><img src={twitter} height='64' width='64'></img> </a></li>
+                    <li><a href='https://instagram.com' target='_blank'><img src={instagram} height='64' width='64'></img></a></li>
                     <li><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img src={youtube} height='64' width='64'></img></a></li>
                 </ul>
                 <ul id='links'>
