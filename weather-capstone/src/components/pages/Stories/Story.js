@@ -5,9 +5,9 @@ import { Col } from 'react-bootstrap'
 const Story = ({src, date, title, text}) => {
     return (
         <Col style={{ marginTop: '15px'}} md={4}>
-        {/* created a col component, with a margin top of 15px and a md size of 4 */}
-            <Card>
-            {/* card component */}
+            {/* created a col component, with a margin top of 15px and a md size of 4 */}
+            <Card id='story-card'style={{}}>
+                {/* card component */}
                 <Card.Img variant="top" src={src} />
                 {/* card image with variant set as top and src set a src prop */}
                 <Card.Body>

@@ -32,7 +32,6 @@
     padding-top:50px;
   }
 //styling weather component
-
   li{
     list-style: none;
   }
@@ -94,12 +93,14 @@
     border-radius: 0;
   }
   
-  /* AboutUs Cards */
-  .card { /* Styles the cards */
+  
+  
+  /* AboutUs CardCarousel */
+  .card { /* Styles the height of the cards */
     height: 33rem;
   }
   
-  .custom-card {
+  .custom-card { /* Puts a border on the cards */
     border: solid wheat .2rem !important;
   }
   
@@ -142,21 +143,37 @@
     margin-bottom: 1.5rem;
   }
   
-  .carousel-control-next-icon {
-    display: none !important;
+  .carousel-control-next-icon { /* Styles the icon for the next (right) arrow on the carousel */
+    position: static !important; /* !important is used to override the React Bootstrap attributes */
+    display: block !important;
+    margin-left: auto !important;
+    cursor: pointer !important;
+    width: 2rem !important;
+    height: 2rem !important;
   }
-  
-  .carousel-control-prev-icon {
-    display: none !important;
+   
+  .carousel-control-prev-icon { /* Styles the icon for the previous (left) arrow on the carousel */
+    position: static !important;
+    display: block !important;
+    margin-right: auto !important;
+    cursor: pointer !important;
+    width: 2rem !important;
+    height: 2rem !important;
   }
-  
-  .carousel-control-prev {
+   
+  .carousel-control-prev { /* Styles the area that changes the slides */
     cursor: auto !important;
+    height: 1rem !important;
+    display: block !important;
+    margin: auto !important;
   }
-  
-  .carousel-control-next {
+   
+  .carousel-control-next { /* Styles the area that changes the slides */
     cursor: auto !important;
-  }
+    height: 1rem !important;
+    display: block !important;
+    margin: auto !important;
+  }  
   
   .scroll { /* Styles the scroll container for the company history */
     background-color: white;
@@ -167,10 +184,36 @@
     height: 33rem;
   }
   
-  #title-3 { /* Styles the parts of the history */
+  #title-3 { /* Centers each part of the story */
     text-align: center;
   }
   
   #end { /* Centers the end text at the end of the story */
     text-align: center;
+  }
+
+  .history-text { /* Moves all of the paragraph text slightly inward */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+
+
+  #stories-container{
+      background:rgba(0, 0, 0, 0.415);
+      min-width:100%;
+      margin-top:-15px;
+      margin-bottom:-15px;
+      padding-left:10rem;
+      padding-right:10rem;
+      padding-bottom:10px;
+      min-height:100%;
+  }
+  #story-card{
+      min-height: 10rem;
+      min-width:15rem;
+  }
+  #story-body{
+    display: flex;
+    justify-content: center;
   }
