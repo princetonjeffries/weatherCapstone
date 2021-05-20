@@ -32,7 +32,6 @@
     padding-top:50px;
   }
 //styling weather component
-
   li{
     list-style: none;
   }
@@ -173,4 +172,22 @@
   
   #end { /* Centers the end text at the end of the story */
     text-align: center;
+  }
+  #stories-container{
+      background:rgba(0, 0, 0, 0.415);
+      min-width:100%;
+      margin-top:-15px;
+      margin-bottom:-15px;
+      padding-left:10rem;
+      padding-right:10rem;
+      padding-bottom:10px;
+      min-height:100%;
+  }
+  #story-card{
+      min-height: 10rem;
+      min-width:15rem;
+  }
+  #story-body{
+    display: flex;
+    justify-content: center;
   }
