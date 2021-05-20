@@ -16,7 +16,7 @@ export const Nav = styled.nav`
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
-    heigth: 100%;
+    height: 100%;
     cursor: pointer;
     &.active{
         color: #a36106;
