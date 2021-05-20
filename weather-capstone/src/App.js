@@ -5,7 +5,6 @@ import index from './components/pages/index'
 import Weather from './components/pages/Weather'
 import Stories from './components/pages/Stories'
 import Footer from './components/Footer'
-
 function App() {
   return (
     <Router>
