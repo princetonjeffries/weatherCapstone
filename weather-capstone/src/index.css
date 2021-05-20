@@ -1,0 +1,230 @@
+@font-face{
+  font-family: 'montserrat';
+  src: url(./fonts/Montserrat/Montserrat-Black.ttf)
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#restOfFooter{
+  display:flex;
+  justify-content: space-around;
+  padding-top:50px;
+}
+li{
+  list-style: none;
+}
+body{
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  min-height:100%;
+}
+
+.header {
+  color: white;
+  font-size: 3rem;
+  text-shadow: .1rem 0rem 2rem white;
+}
+
+#socials{
+  display:flex;
+  justify-content: space-around;
+  width:50%;
+}
+#nav{
+  background-color:rgb(12, 14, 32);
+}
+#footer{
+  margin-top:0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(12, 14, 32);
+  color:white;
+  height:45vh;
+  border-radius: 0;
+}
+
+#jumbotron{
+  background: rgba(0, 0, 0, 0.415);
+  color:white;
+  margin-bottom:0;
+  min-height:80vh;
+}
+
+a:hover{
+  text-decoration:none;
+  color: #2DA9F5;
+}
+
+html{
+  height:100vh;
+}
+
+#links a:hover{
+  color:#2DA9F5;
+  text-decoration: none;
+}
+#links a{
+  color:white;
+}
+#nav a:hover{
+  color:#2DA9F5;
+  text-decoration: none;
+}
+#links1{
+  display:flex;
+  transform:1.2s;
+
+}
+#links1 img:hover{
+  transform: scale(1.5);
+}
+#links1 li{
+  padding:5px;
+  margin-bottom:0;
+  border-radius: 0;
+}
+
+/* AboutUs Cards */
+.card {
+  height: 33rem;
+}
+
+.custom-image {
+  border: solid wheat .3rem;
+}
+
+#title {
+  color: #2DA9F5;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+#text {
+  font-size: 1.25rem;
+}
+
+#jumbotron-2{
+  background: rgba(0, 0, 0, 0.415);
+  color: black;
+  font-size: 3rem;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.header {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.alice-carousel__prev-btn {
+  color: red;
+}
+
+
+
+/* Weather page */
+.container{
+  display: flex;
+  margin-left: 100px;
+}
+
+
+.Ttemp{
+  text-align: start;
+  font-size: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+#WP{
+  padding-left: 40px;
+  padding-top: 60px;
+}
+
+#wpText{
+  text-align: start;
+  font-size: 1.8rem;
+}
+
+.Trrowtemp{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 16rem;
+  padding-top: 40px;
+}
+
+#Ttext{
+  margin: 0;
+  font-size: 50px;
+}
+
+#TtempText{
+  padding-top: 3rem;
+  font-size: 100px;
+}
+
+.Listtemp{
+  text-align: start;
+  background-color: rgb(0, 0, 0, .8);
+  font-size: 1.5rem;
+}
+
+.Dtemp{
+  display: flex;
+  align-items: baseline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90rem;
+  justify-content: space-between;
+  color: #a36106;
+  padding-top: 2rem;
+}
+
+img.display{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* this is use for the datse list sun size */
+#sunsize{
+  width: 2rem;
+  height: 2rem;
+}
+#heading {
+  font-size: 4rem;
+  text-shadow: none;
+}
+
+#popUpDays{
+  font-size: 3rem;
+}
+
+#TempText{
+  font-size: 5rem;
+}
+
+#CSun{
+  width: 5rem;
+}
+
+#Temp{
+  width: 3rem;
+}
+
+#Water{
+  width: 3rem;
+}
