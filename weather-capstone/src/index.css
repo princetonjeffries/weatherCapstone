@@ -145,6 +145,7 @@ html{
   font-size: 6.5rem;
   display: flex;
   flex-direction: column;
+  padding-top: 1rem;
 }
 
 #WP{
@@ -161,8 +162,8 @@ html{
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-left: 14rem;
-  padding-top: 65px;
+  padding-left: 16rem;
+  padding-top: 40px;
 }
 
 #Ttext{
@@ -218,4 +219,12 @@ img.display{
 
 #CSun{
   width: 5rem;
+}
+
+#Temp{
+  width: 3rem;
+}
+
+#Water{
+  width: 3rem;
 }
