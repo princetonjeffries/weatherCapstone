@@ -9,7 +9,7 @@ const Navbar = () => {
         <>
             <Nav id='nav'>
                 <NavLink to='/'>
-                    <WeatherSunnyLow size='48'/> Arizona Weather 
+                    <WeatherSunnyLow size='48'/><span id='azWeatherLogo'> Arizona Weather </span>
                 </NavLink>
                 <NavMenu>
                     <NavLink to='/weather'>

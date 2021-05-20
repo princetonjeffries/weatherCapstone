@@ -23,7 +23,7 @@ const Weather = () => {
                 <NavLink to="/weather">Today</NavLink>
                 <NavLink to="/WC">10 Days</NavLink>
             </Div>
-            <div className="container" fluid>
+            <div className="containerHanad" fluid>
                 <div className="Ttemp">
                     <p id="TempText"><XSun />95°F</p>
                     <div id="time">{time}</div>
