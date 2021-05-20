@@ -109,13 +109,14 @@ html {
   border-radius: 0;
 }
 
-/* AboutUs Cards */
+/* AboutUs CardCarousel */
 .card {
-  /* Styles the cards */
+  /* Styles the height of the cards */
   height: 33rem;
 }
 
 .custom-card {
+  /* Puts a border on the cards */
   border: solid wheat .2rem !important;
 }
 
@@ -169,19 +170,40 @@ html {
 }
 
 .carousel-control-next-icon {
-  display: none !important;
+  /* Styles the icon for the next (right) arrow on the carousel */
+  position: static !important;
+  /* !important is used to override the React Bootstrap attributes */
+  display: block !important;
+  margin-left: auto !important;
+  cursor: pointer !important;
+  width: 2rem !important;
+  height: 2rem !important;
 }
 
 .carousel-control-prev-icon {
-  display: none !important;
+  /* Styles the icon for the previous (left) arrow on the carousel */
+  position: static !important;
+  display: block !important;
+  margin-right: auto !important;
+  cursor: pointer !important;
+  width: 2rem !important;
+  height: 2rem !important;
 }
 
 .carousel-control-prev {
+  /* Styles the area that changes the slides */
   cursor: auto !important;
+  height: 1rem !important;
+  display: block !important;
+  margin: auto !important;
 }
 
 .carousel-control-next {
+  /* Styles the area that changes the slides */
   cursor: auto !important;
+  height: 1rem !important;
+  display: block !important;
+  margin: auto !important;
 }
 
 .scroll {
@@ -197,12 +219,18 @@ html {
 }
 
 #title-3 {
-  /* Styles the parts of the history */
+  /* Centers each part of the story */
   text-align: center;
 }
 
 #end {
   /* Centers the end text at the end of the story */
   text-align: center;
+}
+
+.story-text {
+  /* Moves all of the paragraph text slightly inward */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 /*# sourceMappingURL=index.css.map */

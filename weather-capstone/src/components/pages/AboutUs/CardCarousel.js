@@ -21,7 +21,7 @@ import image7 from './img/image7.jpg';
 import image8 from './img/image8.jpg';
 import image9 from './img/image9.jpg';
 
-const Cards = () => { /* This is the cards function */
+const CardCarousel = () => { /* This is the cards function */
   return (
   <>
   
@@ -144,10 +144,10 @@ const Cards = () => { /* This is the cards function */
 
   <div className="scroll">
   <h1 id="title-3"><strong>Introduction</strong></h1>
-  <p className="story-text">Arizona Weather was founded on February 14<sup>th</sup>, 1949. It was founded by Abe Cleveland and George Storm. Abe and George thought it was important to provide Arizonans with up to date weather reports to ensure everyone's safety. </p> 
+  <p className="story-text">Arizona Weather was founded on February 14<sup>th</sup>, 1949. It was founded by Abe Cleveland and George Storm. Abe and George thought it was important to provide Arizonans with up-to-date weather reports to ensure everyone's safety. </p> 
   
   <h1 id="title-3"><strong>Part One - Loss</strong></h1>
-  <p className="story-text">Abe was walking down the street on his way to his brother's wedding. He was the best man so he had to be on time and have the ring. He had 6 hours before he needed to be there. He kept the ring in his right jacket pocket in a black wooden case. Every 5 minutes he would check to make sure he still had the ring in his pocket. After his fifth check he saw a dust storm heading straight for him. He pulled the case out of his pocket and held it tightly in his right hand to make sure he wouldn't lose it. He ran and tried to hide behind a sign but it didn't work. His suit was covered in dirt. He didn't care too much but then he noticed that the case was no longer in his right hand. He looked everywhere around him and couldn't find it. He checked his pocket about 30 more times before he realized that the dust storm must have knocked it out of his hands and into the nearby river. He knew that the ring was the most important thing and was necessary for the wedding to be successful. So he started to climb into the river.</p>
+  <p className="story-text">Abe was walking down the street on his way to his brother's wedding. He was the best man so he had to be on time and have the ring. He had 6 hours before he needed to be there. He kept the ring in his right jacket pocket in a black wooden case. Every 5 minutes he would check to make sure he still had the ring in his pocket. After his fifth check, he saw a dust storm heading straight for him. He pulled the case out of his pocket and held it tightly in his right hand to make sure he wouldn't lose it. He ran and tried to hide behind a sign but it didn't work. His suit was covered in dirt. He didn't care too much but then he noticed that the case was no longer in his right hand. He looked everywhere around him and couldn't find it. He checked his pocket about 30 more times before he realized that the dust storm must have knocked it out of his hands and into the nearby river. He knew that the ring was the most important thing and was necessary for the wedding to be successful. So he started to climb into the river.</p>
 
   <h1 id="title-3"><strong>Part Two - The Chase</strong></h1>
   <p className="story-text">Abe climbed down into the river and tore the left sleeve of his jacket on a metal bar sticking out of the ground. He saw the case was sitting on a pile of rocks right next to the water. It looked like it was still intact He started making his way towards the case when it started pouring rain. He tripped on a rock and fell into the water along with the case. He started swimming towards it and could almost reach it but he hit his head on a bridge that went over the river and he passed out. When he woke up he saw someone reaching down and picking up the case. Abe tried to yell out but the person ran off. Abe got up and noticed it was much darker. He checked his watch and saw that he only had two hours before the wedding. He went to where the person took the case and there was a note left on the ground. It said "check your right pocket". He checked his right pocket and found another note that said "Meet at the abandoned factory at 6PM". The factory was on the opposite side of town of where the wedding was happening so he started moving right away. The rain was replaced with loud thunder and bright purple lightning. He heard loud aggressive strings playing in the streets as he ran towards the factory. There was a strong wind blowing against him as he ran. He knew he couldn't let it slow him down so he picked up the lid of a metal trash can and kept running. He used the trash can lid to slide down the road quickly and slid right through the factory doors and fell down. He got up and everything was dark and quiet. He couldn't hear anything happening outside of the factory. He walked further into the factory and cut his leg while moving debris. Someone walked out from the railing at the top of the building above the machines. They were wearing a nice suit and had a cane. They said "Looking for this?". After that one of the crushing machines turned on. The suited figure said "I'm not letting you get to that wedding Abe." Abe responded by asking "Who are you?" to the man. The suited man said "My name is George Storm. I have been the one creating the storms around you all day, and you're not getting to that wedding."</p>
@@ -175,4 +175,4 @@ const Cards = () => { /* This is the cards function */
   )
 }
 
-export default Cards
+export default CardCarousel
