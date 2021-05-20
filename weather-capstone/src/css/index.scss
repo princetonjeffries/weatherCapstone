@@ -96,6 +96,10 @@
   
   
   /* AboutUs CardCarousel */
+  .AboutUs {
+    min-width: 100%;
+  }
+
   .card { /* Styles the height of the cards */
     height: 33rem;
   }
@@ -124,6 +128,8 @@
     font-size: 3rem;
     border-radius: 0;
     margin-bottom: 0;
+    padding-left: 15.2rem;
+    padding-right: 15.2rem;
   }
   
   .header { /* Styles the icon and heading */
@@ -148,8 +154,9 @@
     display: block !important;
     margin-left: auto !important;
     cursor: pointer !important;
-    width: 2rem !important;
-    height: 2rem !important;
+    width: 5rem !important;
+    height: 5rem !important;
+    margin-right: auto;
   }
    
   .carousel-control-prev-icon { /* Styles the icon for the previous (left) arrow on the carousel */
@@ -157,8 +164,9 @@
     display: block !important;
     margin-right: auto !important;
     cursor: pointer !important;
-    width: 2rem !important;
-    height: 2rem !important;
+    width: 5rem !important;
+    height: 5rem !important;
+    margin-left: auto;
   }
    
   .carousel-control-prev { /* Styles the area that changes the slides */
