@@ -22,11 +22,11 @@ const OpenWeather = () => {
         todayDescFontColor:  '#ffa72b',
         todayInfoFontColor:  '#ffa72b',
         todayIconColor:  '#FFF',
-        forecastBackgroundColor:  'rgba(0,0,0,.57)',
+        forecastBackgroundColor:  '#152238',
         forecastSeparatorColor:  '#DDD',
-        forecastDateColor:  '#777',
-        forecastDescColor:  '#777',
-        forecastRangeColor:  '#777',
+        forecastDateColor:  '#bbb',
+        forecastDescColor:  '#bbb',
+        forecastRangeColor:  '#bbb',
         forecastIconColor:  '#ffa72b',
 
     };
