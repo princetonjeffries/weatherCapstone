@@ -39,7 +39,7 @@ const OpenWeather = () => {
       lang="en"
       locationLabel="Phoenix"
       unitsLabels={{ temperature: 'F', windSpeed: 'm/h' }}
-      showForecast = {false}
+      showForecast = {true}
     />
   );
 };
