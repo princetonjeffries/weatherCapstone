@@ -24,7 +24,7 @@ const Wcontain = () => {
         <>
         
         <div className="Listtemp" fluid>
-            <Div>
+            <Div id='weatherL'>
                 <NavLink to="/weather">Today</NavLink>
                 <NavLink to="/WC">10 Days</NavLink>
             </Div>
