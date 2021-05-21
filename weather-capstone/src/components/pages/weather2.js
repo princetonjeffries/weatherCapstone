@@ -4,7 +4,7 @@ const WTHC = () => {
     return (
         <>
 
-            <Wcontain />
+            <Wcontain id='wcontain'/>
 
         </>
     )

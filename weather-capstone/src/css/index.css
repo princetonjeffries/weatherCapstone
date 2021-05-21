@@ -356,6 +356,8 @@ html {
           align-items: baseline;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 10rem;
+  padding-right: 10rem;
   width: 90rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
