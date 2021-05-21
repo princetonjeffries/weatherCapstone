@@ -186,8 +186,8 @@ html {
   display: block !important;
   margin-left: auto !important;
   cursor: pointer !important;
-  width: 5rem !important;
-  height: 5rem !important;
+  width: 3rem !important;
+  height: 3rem !important;
   margin-right: auto;
 }
 
@@ -197,8 +197,8 @@ html {
   display: block !important;
   margin-right: auto !important;
   cursor: pointer !important;
-  width: 5rem !important;
-  height: 5rem !important;
+  width: 3rem !important;
+  height: 3rem !important;
   margin-left: auto;
 }
 
@@ -276,7 +276,9 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Ttemp {
@@ -329,8 +331,15 @@ html {
 
 .Listtemp {
   text-align: start;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.471);
   font-size: 1.5rem;
+}
+
+.Listtemp2 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.471);
+  font-size: 1.5rem;
+  color: white;
 }
 
 .Dtemp {
@@ -346,7 +355,7 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: #a36106;
+  color: orange;
   padding-top: 2rem;
 }
 

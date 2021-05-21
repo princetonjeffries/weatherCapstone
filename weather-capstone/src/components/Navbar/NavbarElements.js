@@ -20,7 +20,7 @@ export const Nav = styled.nav`
     font-size:1.2rem;
     cursor: pointer;
     &.active{
-        color: #a36106;
+        color: orange;
     }
     `;
     

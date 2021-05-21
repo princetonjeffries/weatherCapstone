@@ -18,7 +18,7 @@ var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
 
 const Weather = () => {
     return (
-        <>
+        <div className='Listtemp2 text-center'>
             <Div>
                 <NavLink to="/weather">Today</NavLink>
                 <NavLink to="/WC">10 Days</NavLink>
@@ -39,7 +39,7 @@ const Weather = () => {
                 </div>
 
             </div>
-        </>
+        </div>
     )
 }
 

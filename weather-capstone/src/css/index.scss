@@ -157,8 +157,8 @@
     display: block !important;
     margin-left: auto !important;
     cursor: pointer !important;
-    width: 5rem !important;
-    height: 5rem !important;
+    width: 3rem !important;
+    height: 3rem !important;
     margin-right: auto;
   }
    
@@ -167,8 +167,8 @@
     display: block !important;
     margin-right: auto !important;
     cursor: pointer !important;
-    width: 5rem !important;
-    height: 5rem !important;
+    width: 3rem !important;
+    height: 3rem !important;
     margin-left: auto;
   }
    
@@ -231,7 +231,7 @@
   /* Weather page */
 .containerHanad{
   display: flex;
-  margin-left: 100px;
+  justify-content: center;
 }
 
 
@@ -273,10 +273,16 @@
 
 .Listtemp{
   text-align: start;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .471);
   font-size: 1.5rem;
 }
 
+.Listtemp2{
+  text-align: center;
+  background-color: rgba(0, 0, 0, .471);
+  font-size: 1.5rem;
+  color:white;
+}
 .Dtemp{
   display: flex;
   align-items: baseline;
@@ -284,7 +290,7 @@
   margin-right: auto;
   width: 90rem;
   justify-content: space-between;
-  color: #a36106;
+  color: orange;
   padding-top: 2rem;
 }
 
