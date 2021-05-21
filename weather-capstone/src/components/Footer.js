@@ -16,7 +16,7 @@ const Footer = () => {
             <div id='restOfFooter' className='text-center'>
              <WeatherSunnyLow 
                 size='100'
-                style={{color:'#a36106'}}
+                style={{color:'orange'}}
              />
                 <ul id='links1'>
                     <li><a href='https://twitter.com/' target='_blank' ><img src={twitter} height='64' width='64'></img> </a></li>

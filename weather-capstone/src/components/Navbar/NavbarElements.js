@@ -6,7 +6,7 @@ export const Nav = styled.nav`
     height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem calc((100vw - 1000px) / 2);
+    padding: 0.5rem 10rem;
     z-index:10;
     `;
     
@@ -17,9 +17,10 @@ export const Nav = styled.nav`
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    font-size:1.2rem;
     cursor: pointer;
     &.active{
-        color: #a36106;
+        color: orange;
     }
     `;
     

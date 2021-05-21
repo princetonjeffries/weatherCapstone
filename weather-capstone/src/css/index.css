@@ -90,6 +90,10 @@ html {
   text-decoration: none;
 }
 
+#azWeatherLogo {
+  font-size: 2rem;
+}
+
 #links1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -265,5 +269,130 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+/* Weather page */
+.containerHanad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Ttemp {
+  text-align: start;
+  font-size: 6.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 1rem;
+}
+
+#WP {
+  padding-left: 40px;
+  padding-top: 60px;
+}
+
+#wpText {
+  text-align: start;
+  font-size: 1.8rem;
+}
+
+.Trrowtemp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 16rem;
+  padding-top: 40px;
+}
+
+#Ttext {
+  margin: 0;
+  font-size: 50px;
+}
+
+#TtempText {
+  padding-top: 3rem;
+  font-size: 100px;
+}
+
+.Listtemp {
+  text-align: start;
+  background-color: rgba(0, 0, 0, 0.471);
+  font-size: 1.5rem;
+}
+
+.Listtemp2 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.471);
+  font-size: 1.5rem;
+  color: white;
+}
+
+.Dtemp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: orange;
+  padding-top: 2rem;
+}
+
+img.display {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* this is use for the datse list sun size */
+#sunsize {
+  width: 2rem;
+  height: 2rem;
+}
+
+#heading {
+  font-size: 4rem;
+  text-shadow: none;
+}
+
+#popUpDays {
+  font-size: 3rem;
+}
+
+#TempText {
+  font-size: 5rem;
+}
+
+#CSun {
+  width: 5rem;
+}
+
+#Temp {
+  width: 3rem;
+}
+
+#Water {
+  width: 3rem;
 }
 /*# sourceMappingURL=index.css.map */
