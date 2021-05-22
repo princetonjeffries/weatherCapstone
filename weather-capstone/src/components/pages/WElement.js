@@ -18,8 +18,9 @@ export const Div = styled.div`
 
 /* This is for Monthly Weather */
 export const MainDiv = styled.div`
-    margin: 15px;
-    background-color: rgba(0, 0, 0, .3);
+    padding-left:10rem;
+    padding-right:10rem;
+    background-color: rgba(0, 0, 0, .471);
     `;
  
 export const Miv = styled.div`

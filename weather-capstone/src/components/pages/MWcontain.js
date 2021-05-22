@@ -3,7 +3,7 @@ import {MainDiv, NavLink, Div, Miv, MP, Dates, DateP, HighTemp, TheDates, Para, 
 const MWC = () => {
     return (
         <>
-            <Div>
+            <Div id='weatherL'>
                 <NavLink to="/weather">Today</NavLink>
                 <NavLink to="/WC">10 Days</NavLink>
                 <NavLink to="/MW">Monthly</NavLink>
