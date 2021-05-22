@@ -6,6 +6,7 @@ import Weather from './components/pages/Weather'
 import Stories from './components/pages/Stories'
 import Footer from './components/Footer'
 import weather2 from './components/pages/weather2'
+import MonthlyW from './components/pages/MonthlyW'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Route path='/weather'  component={Weather}/>
         <Route path='/about'  component={AboutUs}/>
         <Route path='/stories'  component={Stories}/>
-        <Route path='/WC' component={weather2}/>
+        <Route path='/WC' component={weather2}/>{/* WC means for Weather contain */}
+        <Route path='/MW' component={MonthlyW}/>
       </Switch>
       <Footer />
     </Router>
