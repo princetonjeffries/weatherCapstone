@@ -27,6 +27,7 @@ const Wcontain = () => {
             <Div id='weatherL'>
                 <NavLink to="/weather">Today</NavLink>
                 <NavLink to="/WC">10 Days</NavLink>
+                <NavLink to="/MW">Monthly</NavLink>
             </Div>
                     <div className="Dtemp">
                         <YSun className="display" /><p id="popUpDays">Wednesday 19</p><p><img src="./images/Thermometer.png" id="Temp"></img>101°|70°</p><p><WTR />Precipitation: 0%</p><p><W />Wind Speed: 14 mph/NE</p><p><img src='./images/Humidity.png' id="Water"></img>Humdity: 11%</p>

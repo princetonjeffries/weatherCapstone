@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../src/components/pages/Stories/css/Stories.scss"
+    ],
+    "names": [],
+    "file": "Stories.css"
+}

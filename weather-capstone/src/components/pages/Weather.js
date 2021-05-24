@@ -3,7 +3,7 @@ import {SunFill} from '@styled-icons/bootstrap/SunFill'
 import Container from 'react-bootstrap/Container'
 import React from 'react'
 import {NavLink, Div} from './WElement'
-
+import {format} from 'date-fns'
 const XSun = styled(SunFill)`
     color: yellow;
     width: 10rem;`
@@ -22,11 +22,12 @@ const Weather = () => {
             <Div id='weatherL'>
                 <NavLink to="/weather">Today</NavLink>
                 <NavLink to="/WC">10 Days</NavLink>
+                <NavLink to="/MW">Monthly</NavLink>
             </Div>
             <div className="containerHanad" fluid>
                 <div className="Ttemp">
                     <p id="TempText"><XSun />95°F</p>
-                    <div id="time">{time}</div>
+                    <div id="time">{format (new Date(), " p")}</div>
                 </div>
                 <div id="WP">
                     <p id="wpText">Precipitation: 0%</p>
